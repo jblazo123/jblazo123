@@ -1,0 +1,73 @@
+start: Start
+     |
+     V
+rectangle: Identify the problem
+     |
+     V
+rectangle: Gather information on affected sections and hole mismatches
+     |
+     V
+rectangle: Convene cross-functional team
+     |
+     V
+rectangle: Investigate root cause
+     |
+     V
+diamond: Drilling process issue?
+     |            |
+     V            |
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Template design issue?    Analyze drilling process parameters and equipment
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Operator error or skills issue?    Evaluate template design and alignment mechanism
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Quality control issue?    Assess operator training and skill level
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Material variation issue?    Review quality control processes and checks
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Measurement issue?    Examine material specifications and variations
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+diamond: Environmental factor?    Evaluate measurement tools and techniques
+     |            |
+     V            V
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+rectangle: Implement appropriate corrective actions
+     |
+     V
+rectangle: Verify effectiveness of corrective actions
+     |
+     V
+diamond: Problem resolved?
+     |            |
+     V            |
+No: rectangle   Yes: rectangle
+     |            |
+     V            V
+rectangle: Document successful resolution
+     |
+     V
+end: End
